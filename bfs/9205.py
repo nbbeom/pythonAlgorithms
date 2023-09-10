@@ -38,7 +38,7 @@ for _ in range(t):
         x, y = map(int, input().split())
         conv.append([x, y])
     festival = [int(x) for x in input().split()]
-    conv.append([x, y])
+    conv.append([festival[0], festival[1]])
 
     bfs()
     # 마지막 지점을 festival 로 append 해서~ n인지점이 종점
