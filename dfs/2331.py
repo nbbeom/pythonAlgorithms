@@ -1,6 +1,7 @@
 A, P = map(int, input().split())
 
 nums = [A]
+print(nums)
 
 while True:
     tmp = 0
