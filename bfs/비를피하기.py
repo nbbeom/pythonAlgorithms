@@ -6,6 +6,7 @@ a = [list(map(int, input().split())) for _ in range(n)]
 s_pos = [(i, j) for i in range(n) for j in range(n) if a[i][j] == 3]
 
 q = deque()
+#
 visited = [[False for _ in range(n)] for _ in range(n)]
 step = [[0 for _ in range(n)] for _ in range(n)]
 
